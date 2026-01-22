@@ -27,7 +27,7 @@ export default defineConfig({
     starlight({
       title: 'Accessible Astro Documentation',
       logo: {
-        light: './src/assets/logo-light.svg',
+        light: './src/assets/forwardkind-logo.svg',
         dark: './src/assets/logo-dark.svg',
         replacesTitle: true,
       },
@@ -46,20 +46,12 @@ export default defineConfig({
               link: '/getting-started/introduction',
             },
             {
-              label: 'Who This is For',
-              link: '/getting-started/accessibility',
+              label: 'How to use this portal',
+              link: '/getting-started/how-to-use-this-portal',
             },
             {
-              label: 'How to Use This Portal',
-              link: '/getting-started/accessibility-testing',
-            },
-            {
-              label: 'Our Commitment',
-              link: '/getting-started/quick-start',
-            },
-            {
-              label: 'How to Get Involved',
-              link: '/getting-started/installation',
+              label: 'How to get involved',
+              link: '/getting-started/how-to-get-involved',
             },
           ],
         },
@@ -68,15 +60,15 @@ export default defineConfig({
           items: [
             {
               label: 'Mission, Vision & Values',
-              link: '/about-us/accessible-astro-starter',
+              link: '/about-us/mission-vision-values',
             },
             {
               label: 'Co-op Structure & Model',
-              link: '/about-us/accessible-astro-dashboard',
+              link: '/about-us/coop-structure-model',
             },
             {
               label: 'Legal Documents & Policies',
-              link: '/about-us/accessible-astro-dashboard',
+              link: '/about-us/legal-documents-policies',
             },
           ],
         },
@@ -85,15 +77,15 @@ export default defineConfig({
           items: [
             {
               label: 'About Membership',
-              link: '/membership/overview',
+              link: '/membership/about-membership',
             },
             {
               label: 'Member Benefits',
-              link: '/membership/accordion',
+              link: '/membership/member-benefits',
             },
             {
               label: 'Community Expectations',
-              link: '/membership/avatar',
+              link: '/membership/community-expectations',
             },
           ],
         },
@@ -102,23 +94,23 @@ export default defineConfig({
           items: [
             {
               label: 'About Governance',
-              link: '/governance/how-to',
+              link: '/governance/about-governance',
             },
             {
               label: 'Decision Making',
-              link: '/governance/development',
+              link: '/governance/decision-making',
             },
             {
               label: 'Change & Amendments',
-              link: '/governance/style-guide',
+              link: '/governance/change-amendments',
             },
             {
               label: 'Accountability',
-              link: '/governance/issues',
+              link: '/governance/accountability',
             },
             {
               label: 'Financial Transparency',
-              link: '/governance/support-us',
+              link: '/governance/financial-transparency',
             },
           ],
         },
@@ -127,23 +119,23 @@ export default defineConfig({
           items: [
             {
               label: 'Glossary',
-              link: '/resources/showcases',
+              link: '/resources/glossary',
             },
             {
               label: 'Learning & Education',
-              link: '/resources/showcases',
+              link: '/resources/learning-education',
             },
             {
               label: 'Tools We Use',
-              link: '/resources/showcases',
+              link: '/resources/tools-we-use',
             },
             {
               label: 'Brand Guidelines',
-              link: '/resources/showcases',
+              link: '/resources/brand-guidelines',
             },
             {
               label: 'Site Accessibility',
-              link: '/resources/showcases',
+              link: '/resources/site-accessibility',
             },
           ],
         },

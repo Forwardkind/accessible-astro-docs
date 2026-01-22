@@ -19,6 +19,9 @@ const viteConfig = {
 
 // https://astro.build/config
 export default defineConfig({
+  redirects: {
+    '/': 'getting-started/introduction', // Redirects the root URL
+  },
   vite: enhanceConfigForWorkspace(viteConfig),
   integrations: [
     starlight({

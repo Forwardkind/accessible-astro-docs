@@ -70,6 +70,10 @@ export default defineConfig({
               label: 'Legal Documents & Policies',
               link: '/about-us/legal-documents-policies',
             },
+            {
+              label: 'Forwardkind Fund',
+              link: '/about-us/forwardkind-fund',
+            },
           ],
         },
         {

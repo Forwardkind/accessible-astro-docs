@@ -31,23 +31,6 @@ export default defineConfig({
         dark: './src/assets/logo-dark.svg',
         replacesTitle: true,
       },
-      social: [
-        {
-          href: 'https://bsky.app/profile/incluud.dev',
-          icon: 'blueSky',
-          label: 'BlueSky',
-        },
-        {
-          href: 'https://github.com/incluud',
-          icon: 'seti:github',
-          label: 'GitHub',
-        },
-        {
-          href: 'https://opencollective.com/incluud',
-          icon: 'openCollective',
-          label: 'Open Collective',
-        },
-      ],
       editLink: {
         baseUrl: 'https://github.com/incluud/astro-docs/edit/main/',
       },
@@ -63,175 +46,79 @@ export default defineConfig({
               link: '/getting-started/introduction',
             },
             {
-              label: 'Why accessibility matters',
+              label: 'Who This is For',
               link: '/getting-started/accessibility',
             },
             {
-              label: 'Accessibility testing',
+              label: 'How to Use This Portal',
               link: '/getting-started/accessibility-testing',
-              badge: {
-                text: 'tip',
-                variant: 'note',
-              },
             },
             {
-              label: 'Quick start guide',
+              label: 'Our Commitment',
               link: '/getting-started/quick-start',
             },
             {
-              label: 'Installation options',
+              label: 'How to Get Involved',
               link: '/getting-started/installation',
             },
           ],
         },
         {
-          label: 'Themes',
+          label: 'About Us',
           items: [
             {
-              label: 'Accessible Astro Starter',
-              link: '/themes/accessible-astro-starter',
+              label: 'Mission, Vision & Values',
+              link: '/about-us/accessible-astro-starter',
             },
             {
-              label: 'Accessible Astro Dashboard',
-              link: '/themes/accessible-astro-dashboard',
+              label: 'Co-op Structure & Model',
+              link: '/about-us/accessible-astro-dashboard',
+            },
+            {
+              label: 'Legal Documents & Policies',
+              link: '/about-us/accessible-astro-dashboard',
             },
           ],
         },
         {
-          label: 'Components',
+          label: 'Membership',
           items: [
             {
-              label: 'Overview',
-              link: '/components/overview',
+              label: 'About Membership',
+              link: '/membership/overview',
             },
             {
-              label: 'Accordion',
-              link: '/components/accordion',
+              label: 'Member Benefits',
+              link: '/membership/accordion',
             },
             {
-              label: 'Avatar',
-              link: '/components/avatar',
-            },
-            {
-              label: 'Badge',
-              link: '/components/badge',
-            },
-            {
-              label: 'Breadcrumbs',
-              link: '/components/breadcrumbs',
-            },
-            {
-              label: 'Button',
-              link: '/components/button',
-            },
-            {
-              label: 'Card',
-              link: '/components/card',
-            },
-            {
-              label: 'DarkMode',
-              link: '/components/dark-mode',
-              badge: {
-                text: 'update',
-                variant: 'note',
-              },
-            },
-            {
-              label: 'HighContrast',
-              link: '/components/high-contrast',
-              badge: {
-                text: 'new',
-                variant: 'success',
-              },
-            },
-            {
-              label: 'Drawer',
-              link: '/components/drawer',
-              badge: {
-                text: 'next',
-                variant: 'tip',
-              },
-            },
-            {
-              label: 'Forms',
-              link: '/components/forms',
-            },
-            {
-              label: 'Heading',
-              link: '/components/heading',
-            },
-            {
-              label: 'Link',
-              link: '/components/link',
-            },
-            {
-              label: 'Media',
-              link: '/components/media',
-            },
-            {
-              label: 'Modal',
-              link: '/components/modal',
-            },
-            {
-              label: 'Notification',
-              link: '/components/notification',
-            },
-            {
-              label: 'Pagination',
-              link: '/components/pagination',
-            },
-            {
-              label: 'ReducedMotion',
-              link: '/components/reduced-motion',
-              badge: {
-                text: 'new',
-                variant: 'success',
-              },
-            },
-            {
-              label: 'SkipLink',
-              link: '/components/skip-link',
-            },
-            {
-              label: 'Tabs',
-              link: '/components/tabs',
-            },
-            {
-              label: 'Tooltip',
-              link: '/components/tooltip',
-              badge: {
-                text: 'next',
-                variant: 'tip',
-              },
-            },
-            {
-              label: 'Video',
-              link: '/components/video',
+              label: 'Community Expectations',
+              link: '/membership/avatar',
             },
           ],
         },
         {
-          label: 'Contributing',
+          label: 'Governance',
           items: [
             {
-              label: 'How to contribute',
-              link: '/contributing/how-to',
+              label: 'About Governance',
+              link: '/governance/how-to',
             },
             {
-              label: 'Development setup',
-              link: '/contributing/development',
+              label: 'Decision Making',
+              link: '/governance/development',
             },
             {
-              label: 'Code style guide',
-              link: '/contributing/style-guide',
+              label: 'Change & Amendments',
+              link: '/governance/style-guide',
             },
             {
-              label: 'Reporting issues',
-              link: '/contributing/issues',
+              label: 'Accountability',
+              link: '/governance/issues',
             },
             {
-              label: '❤️ Supporting the project',
-              link: '/contributing/support-us',
+              label: 'Financial Transparency',
+              link: '/governance/support-us',
             },
           ],
         },
@@ -239,7 +126,23 @@ export default defineConfig({
           label: 'Resources',
           items: [
             {
-              label: 'Site showcases',
+              label: 'Glossary',
+              link: '/resources/showcases',
+            },
+            {
+              label: 'Learning & Education',
+              link: '/resources/showcases',
+            },
+            {
+              label: 'Tools We Use',
+              link: '/resources/showcases',
+            },
+            {
+              label: 'Brand Guidelines',
+              link: '/resources/showcases',
+            },
+            {
+              label: 'Site Accessibility',
               link: '/resources/showcases',
             },
           ],

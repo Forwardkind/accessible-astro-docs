@@ -7,6 +7,8 @@ import dotenv from 'dotenv'
 import vue from '@astrojs/vue'
 import { enhanceConfigForWorkspace } from './scripts/workspace-config.js'
 
+import starlightThemeNext from 'starlight-theme-next'
+
 dotenv.config()
 
 // Vite configuration with environment variables
@@ -25,6 +27,7 @@ export default defineConfig({
   vite: enhanceConfigForWorkspace(viteConfig),
   integrations: [
     starlight({
+      plugins: [starlightThemeNext()],
       title: 'Accessible Astro Documentation',
       logo: {
         light: './src/assets/forwardkind-logo.svg',

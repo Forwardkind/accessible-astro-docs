@@ -34,9 +34,6 @@ export default defineConfig({
         dark: './src/assets/logo-dark.svg',
         replacesTitle: true,
       },
-      editLink: {
-        baseUrl: 'https://github.com/incluud/astro-docs/edit/main/',
-      },
       components: {
         Head: './src/components/Head.astro',
       },

@@ -141,8 +141,8 @@ export default defineConfig({
               link: '/resources/brand-guidelines',
             },
             {
-              label: 'Site Accessibility',
-              link: '/resources/site-accessibility',
+              label: 'Accessibility',
+              link: '/resources/accessibility',
             },
           ],
         },

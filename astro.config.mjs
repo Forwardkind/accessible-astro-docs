@@ -130,6 +130,10 @@ export default defineConfig({
               link: '/resources/learning-education',
             },
             {
+              label: 'Resource Guide Taxonomy',
+              link: '/resources/resource-taxonomy',
+            },
+            {
               label: 'Tools We Use',
               link: '/resources/tools-we-use',
             },

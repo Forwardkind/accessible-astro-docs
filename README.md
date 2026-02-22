@@ -1,1 +1,1 @@
-# Coming soon
+This public open-source documentation exists to help you understand who we are, how we work, and how you can participate—whether you’re a current member, a prospective member, a partner, or simply curious about Forwardkind Cooperative.

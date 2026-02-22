@@ -22,7 +22,7 @@ const viteConfig = {
 // https://astro.build/config
 export default defineConfig({
   redirects: {
-    '/': 'getting-started/introduction', // Redirects the root URL
+    '/': 'about-us/introduction', // Redirects the root URL
   },
   vite: enhanceConfigForWorkspace(viteConfig),
   integrations: [
@@ -44,10 +44,6 @@ export default defineConfig({
             {
               label: 'Introduction',
               link: '/getting-started/introduction',
-            },
-            {
-              label: 'How to use this portal',
-              link: '/getting-started/how-to-use-this-portal',
             },
             {
               label: 'How to get involved',
